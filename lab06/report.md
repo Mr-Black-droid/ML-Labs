@@ -1,6 +1,7 @@
 # Individual Project Proposal: Real-Time Edge Acoustic Anomaly Detection
 
-**Student Name:Tadiwanashe Munemo 
+**Student Name:Tadiwanashe Munemo
+
 **Student ID:70712 
 
 ## 1. Problem Statement
