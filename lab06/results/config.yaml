@@ -1,0 +1,32 @@
+experiment_name: "Lab6_Training_Pipelines"
+run_name: "baseline_run"
+seed: 42
+device: "auto" # Uses CUDA if available, otherwise CPU
+
+dataset:
+  name: "FashionMNIST" # Standard vision benchmark representing Lab 3 model
+  data_dir: "./data"
+  val_split: 0.1
+
+model:
+  architecture: "CompactCNN"
+  num_classes: 10
+  dropout: 0.2
+
+training:
+  epochs: 10
+  batch_size: 128
+  num_workers: 2
+  gradient_accumulation_steps: 1
+  optimizer: "adam" # Options: "adam", "sgd_momentum"
+  lr: 0.001
+  momentum: 0.9
+  weight_decay: 0.0001
+  scheduler: "cosine" # Options: "step", "cosine", "plateau", "none"
+  step_size: 3
+  gamma: 0.5
+
+checkpointing:
+  save_dir: "./checkpoints"
+  save_every_n_epochs: 1
+  resume_from: null # Set to checkpoint path (e.g., "./checkpoints/ckpt_epoch_3.pt") to resume

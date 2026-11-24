@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/Desktop/Machine%20Learning/ML-Labs/mlruns/688840453576041501/e7e4db0a17f94f14adc56c95b9e2bde0/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '688840453576041501'
+lifecycle_stage: active
+run_id: e7e4db0a17f94f14adc56c95b9e2bde0
+run_name: bs_32
+run_uuid: e7e4db0a17f94f14adc56c95b9e2bde0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794787864594
+status: 1
+tags: []
+user_id: user

@@ -1,0 +1,4 @@
+dataset: Adult Census Income (OpenML)
+random_seed: 42
+sha256_hash: d273d956c28eba72241f69dcbb78e37e93862248503a1873fb44b9fc2a6ae00b
+test_size: 0.3
