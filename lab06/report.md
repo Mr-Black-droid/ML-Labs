@@ -1,8 +1,8 @@
 # Individual Project Proposal: Real-Time Edge Acoustic Anomaly Detection
 
-**Student Name:Tadiwanashe Munemo
+Student Name:Tadiwanashe Munemo
 
-**Student ID:70712 
+Student ID:70712 
 
 ## 1. Problem Statement
 Industrial rotating machinery (pumps, HVAC compressors, and conveyor motors) exhibits subtle acoustic shifts prior to mechanical failure. Continuous cloud streaming of raw audio is bandwidth-prohibitive and introduces network latency. This project proposes a lightweight, real-time acoustic anomaly detection model deployed directly on edge hardware to classify normal vs. anomalous machine operating states from short audio windows.
